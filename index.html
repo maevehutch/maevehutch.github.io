@@ -23,6 +23,12 @@
     * {
       box-sizing: border-box;
     }
+    
+    html {
+      /* Offsets anchor jumps by the sticky header's height (~54px) plus a
+         little breathing room, so section headings aren't hidden underneath it. */
+      scroll-padding-top: 4.5rem;
+    }
 
     body {
       margin: 0;
@@ -301,7 +307,7 @@
     }
 
     
-/* STICKY MENU OFFSET MARGIN AND PADDING */
+/* /* STICKY MENU OFFSET MARGIN AND PADDING */
 #about {
     padding-top: 100px;
     margin-top: -100px;
@@ -309,7 +315,7 @@
 #publications {
     padding-top: 80px;
     margin-top: -80px;
-}
+} */
 
     
     @media (max-width: 600px) {
